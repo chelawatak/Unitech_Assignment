@@ -1462,7 +1462,7 @@ img {
   }
 
   .cta-title{
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .cta-top{
@@ -1482,5 +1482,9 @@ img {
 
   .cta-wrap{
     height:30rem;
+  }
+
+  .post-item{
+    margin-top: 18px;
   }
 }
