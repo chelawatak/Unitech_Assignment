@@ -21,7 +21,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Link href=""> Cart ( 0 ) </Link>
+        <Link className="cartClass" href=""> Cart ( 0 ) </Link>
         <button className="btncss hover:bg-black hover:text-white">Get Started  
         <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65f97a784f551949d13887e6_ic-arrow.svg" ></img>
         </button>
@@ -33,7 +33,7 @@ export default function Home() {
         {/* part2 starts*/}
         <div className="hero min-h-fit flex flex-col justify-center items-center px-4 py-24">
           <h1 className="text-6xl font-bold text-dark text-center mb-8">Explore the unitech Experience</h1>
-          <div className="text-xl text-gray-700 text-center leading-relaxed w-2/4">
+          <div className="text-xl text-gray-700 text-center leading-relaxed">
               We invite you to explore a realm where innovation is second nature, and intuitive solutions pave the way for transformative success.
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function Home() {
       </div>
 
 
-      <div className="fullouter" style={{height:"140vh", background:"white", textOverflow:"hidden"}}>
+      <div className="fullouter" style={{background:"white", textOverflow:"hidden"}}>
         <div className="outer grid grid-cols-3 gap-4" >
 
         <div className="outerLeft flex">
@@ -171,7 +171,7 @@ export default function Home() {
         </div>
 
         <div className="outerRight_lower">
-          <div className="interface-wrap grid grid-col-5" style={{height:"40vh"}}>
+          <div className="interface-wrap grid grid-col-5" >
 
 
             <div className="feature-head mb-4 col-span-2">
@@ -195,7 +195,7 @@ export default function Home() {
 
 
 <div className="section-wrap bg-white pt-24 pb-24">
-      <div className="section-img">
+      <div className="section-img ">
         <img
           src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66028d748dc21e687b1b2e48_evolution.jpg"
           loading="lazy"
@@ -206,7 +206,7 @@ export default function Home() {
         />
         <div className="on-scroll" style={{ display: 'block', transform: 'translate3d(100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }}></div>
       </div>
-      <div className="section-data">
+      <div className="section-data ">
         <h3 className="sub-heading">Initiating your business evolution with unitech</h3>
         <p className="evolution-text">It's the catalyst for the evolution of your business. Seamlessly integrate groundbreaking solutions that lay the foundation for your upward trajectory.</p>
         <ul role="list" className="evolution-data">
@@ -266,7 +266,7 @@ export default function Home() {
     
 
 
-    <div className="section-title pl-20">
+    <div className="section-title ">
         <p>Features</p>
         <h1 style={{fontWeight:"500", fontSize:"46px"}}>Powerful Features</h1>
     </div>
@@ -289,7 +289,7 @@ export default function Home() {
         </div>
       </div>
       <div className="pf-img">
-        <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/6602a15e0acd4b09478fd837_iPhone%2015%20Pro%20(1).svg" loading="lazy" style={{ opacity: 1, transform: 'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)', transformStyle: 'preserve-3d' }} alt="Features Image" className="pf-image" />
+        <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/6602a15e0acd4b09478fd837_iPhone%2015%20Pro%20(1).svg" loading="lazy"  alt="Features Image" className="pf-image hover:scale-110 transition duration-300 ease-in-out" />
       </div>
       <div className="pf-info-data">
         <div className="features-block">
@@ -320,35 +320,35 @@ export default function Home() {
                 <div className="link-icon flex mx-2" style={{ backgroundColor: 'rgb(185, 233, 125)' }}>
                   <img loading="lazy" src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fbd7264d431200f9ecde39_ic-btn-arrow.svg" alt="Arrow" className="arrow" />
                 </div>
-                <div className='mx-1  hover:text-green'>Explore Integrations</div>
+                <div className='mx-1  hover:scale-110 transition duration-300 ease-in-out'>Explore Integrations</div>
               </a>
             </div>
           </div>
           <div className="ig-logo-wrap">
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029886b68690c68a3ff49a_ic-Layers.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885c99f7af534956e42_ic-Boltshift.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885cb785f539dc1446f_ic-connectify.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298856d31544936b7277b_ic-infinita.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298850253a5007ec435cb_ic-sybcflow.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885d9caab4371d48eef_ic-datafuse.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298851dcae241671538b7_ic-linkworx.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885469cbfb12bca9a8d_ic-FocalPoint.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
-            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298862cf92a81a16afbc4_ic-aqua.svg" loading="lazy" alt="Integration Logo" className="ig-logo" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029886b68690c68a3ff49a_ic-Layers.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885c99f7af534956e42_ic-Boltshift.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885cb785f539dc1446f_ic-connectify.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298856d31544936b7277b_ic-infinita.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298850253a5007ec435cb_ic-sybcflow.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885d9caab4371d48eef_ic-datafuse.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298851dcae241671538b7_ic-linkworx.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/66029885469cbfb12bca9a8d_ic-FocalPoint.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/660298862cf92a81a16afbc4_ic-aqua.svg" loading="lazy" alt="Integration Logo" className="ig-logo hover:scale-150 transition duration-300 ease-in-out" />
           </div>
         </div>
       </div>
     </section>
 
 
-    <section className="blogs bg-white p-28">
+    <section className="blogs bg-white">
       <div className="w-layout-blockcontainer container w-container">
         <div className="section-title">
           <div className="sub-title">Our Blogs</div>
-          <h1 className="section-heading mb-5" style={{fontWeight:"500", fontSize:"46px"}}>Articles &amp; Resource</h1>
+          <h1 className="section-heading mb-5" >Articles &amp; Resource</h1>
         </div>
         <div className="w-dyn-list">
           <div role="list" className="post-list w-dyn-items">
-            <div role="listitem" className="post-item w-dyn-item">
+            <div role="listitem" className="post-item w-dyn-item hover:scale-110 transition duration-300 ease-in-out">
               <a href="https://unitech-template.webflow.io/blog-posts/beyond-the-blueprint-crafting-your-unique-success-structure" className="post-block w-inline-block">
                 <div className="post-img">
                   <img src="https://assets-global.website-files.com/65f97ac947fa88734712d3fb/65fbbd05746b8c70d026eaf9_blog-thumb-01.jpg" loading="lazy" alt="Post Image" className="post-image" />
@@ -366,7 +366,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div role="listitem" className="post-item w-dyn-item">
+            <div role="listitem" className="post-item w-dyn-item hover:scale-110 transition duration-300 ease-in-out">
               <a href="https://unitech-template.webflow.io/blog-posts/navigating-the-landscape-of-core-principles" className="post-block w-inline-block">
                 <div className="post-img">
                   <img src="https://assets-global.website-files.com/65f97ac947fa88734712d3fb/65fbbd287e4ee1d7a1062719_blog-thumb-02.jpg" loading="lazy" alt="Post Image" className="post-image" />
@@ -384,7 +384,7 @@ export default function Home() {
                 </div>
               </a>
             </div>
-            <div role="listitem" className="post-item w-dyn-item">
+            <div role="listitem" className="post-item w-dyn-item hover:scale-110 transition duration-300 ease-in-out">
               <a href="https://unitech-template.webflow.io/blog-posts/sustainable-growth-strategies-paving-the-path-to-lasting-success" className="post-block w-inline-block">
                 <div className="post-img">
                   <img src="https://assets-global.website-files.com/65f97ac947fa88734712d3fb/65fbbd530a0906bf3be0c28f_blog-thumb-03.jpg" loading="lazy" alt="Post Image" className="post-image" />
@@ -407,8 +407,114 @@ export default function Home() {
       </div>
     </section>
 
+
+    <section className="reviews  bg-white">
+      <div className="w-layout-blockcontainer container w-container">
+        <div className="section-title">
+          <div className="sub-title">Testimonials</div>
+          <h2 className="section-heading mb-5"  >Customer Reviews</h2>
+        </div>
+        <div
+          data-delay={4000}
+          data-animation="slide"
+          className="review-slider w-slider"
+          data-autoplay={false}
+          data-easing="ease"
+          data-hide-arrows="false"
+          data-disable-swipe="false"
+          data-autoplay-limit={0}
+          data-nav-spacing={3}
+          data-duration={500}
+          data-infinite={true}
+          role="region"
+          aria-label="carousel"
+        >
+          <div className="w-slider-mask flex" id="w-slider-mask-0">
+            {/* Testimonial 1 */}
+            <div
+              className="testimonial-block w-slide"
+              aria-label="1 of 7"
+              role="group"
+              style={{ transform: "translateX(0px)", opacity: 1 }}
+            >
+              <div className="review-info flex">
+                <div className="review-data">
+                  <div className="review-img">
+                    <img
+                      src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc17fea8779e93c14029e7_review-thumb-01.jpg"
+                      loading="lazy"
+                      alt="Review Image"
+                      className="review-image"
+                    />
+                  </div>
+                  <div>
+                    <div className="review-name">Courtney Henry</div>
+                    <div className="company-name">Tech Solutions</div>
+                  </div>
+                </div>
+                <img
+                  src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc181688745fc10c087d67_capsule.svg"
+                  loading="lazy"
+                  alt="Company Logo"
+                  className="company-logo"
+                  id="banForMobile"
+                />
+              </div>
+              <p className="review-text">
+                Innovation is at the core of unitech, and it reflects in the
+                features it offers. From intelligent automation to
+                cutting-edge tools, unitech provides a playground for
+                forward-thinking businesses. The innovative features not only
+                meet our current needs but also position us for future.
+              </p>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="testimonial-block w-slide" id="testimonial2" aria-label="2 of 7" role="group" style={{ transform: "translateX(0px)", opacity: 1 }}>
+              <div className="review-info">
+                <div className="review-data">
+                  <div className="review-img">
+                    <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc17fe746b8c70d07ad677_review-thumb-02.jpg" loading="lazy" alt="Review Image" className="review-image" />
+                  </div>
+                  <div>
+                    <div className="review-name">Jenny Wilson</div>
+                    <div className="company-name">TechSolutions Inc.</div>
+                  </div>
+                </div>
+                <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc1816ea85400f356cfe9f_hourglass.svg" loading="lazy" alt="Company Logo" className="company-logo"/>
+              </div>
+              <p className="review-text"> Navigating through unitech is a breeze, thanks to its user-friendly interface. It's evident that the platform has been designed with the end-user in mind. The intuitive design allows our team to adapt quickly, minimizing the learning curve and ensuring a smooth transition.</p>
+            </div>
+
+          </div>
+          <div className="left-arrow w-slider-arrow-left" role="button" tabIndex={0} aria-controls="w-slider-mask-0" aria-label="previous slide" >
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc13e6bd9eb26fb954bc01_arrow-left.svg" loading="lazy" alt="Arrow"  className="arrow" />
+          </div>
+          <div className="right-arrow w-slider-arrow-right" role="button"   tabIndex={0}  aria-controls="w-slider-mask-0" aria-label="next slide" >
+            <img src="https://assets-global.website-files.com/65dc317709162b5bce8680ee/65fc13e6ba06eefad10a008f_arrow-right.svg" loading="lazy" alt="Arrow" className="arrow" />
+          </div>
+          <div  className="d-none w-slider-nav w-round w-num" style={{ display: "none" }}>
+            <div className="w-slider-dot w-active" data-wf-ignore="" aria-label="Show slide 1 of 4" aria-pressed="true" role="button" tabIndex={0} style={{ marginLeft: "3px", marginRight: "3px" }} >
+              1
+            </div>
+            <div className="w-slider-dot" data-wf-ignore="" aria-label="Show slide 2 of 4" aria-pressed="false" role="button" tabIndex={-1} style={{ marginLeft: "3px", marginRight: "3px" }}>
+              2
+            </div>
+            <div
+              className="w-slider-dot" data-wf-ignore="" aria-label="Show slide 3 of 4" aria-pressed="false" role="button" tabIndex={-1} style={{ marginLeft: "3px", marginRight: "3px" }}>
+              3
+            </div>
+            <div
+              className="w-slider-dot" data-wf-ignore="" aria-label="Show slide 4 of 4" aria-pressed="false" role="button" tabIndex={-1} style={{ marginLeft: "3px", marginRight: "3px" }}>
+              4
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
-    <section className="cta bg-white" style={{padding:"6rem"}}>
+    <section className="cta bg-white">
       <div className="w-layout-blockcontainer container w-container">
         <div className="cta-wrap" >
           <div className="cta-top">
@@ -433,6 +539,8 @@ export default function Home() {
         </div>
       </div>
     </section>
+
+      
 
 
 
@@ -466,7 +574,7 @@ export default function Home() {
         <div>
           <div className="ft-sub-title">Product</div>
           <div className="ft-menu">
-            <a href="/" aria-current="page" className="ft-link w--current">Home</a>
+            <a href="/" aria-current="page" className="ft-link w--current" style={{color:"lime"}}>Home</a>
             <a href="/features" className="ft-link">Features</a>
             <a href="/about-us" className="ft-link">About us</a>
             <a href="/integrations" className="ft-link">Integrations</a>
@@ -508,33 +616,13 @@ export default function Home() {
     <div className="w-layout-blockcontainer container w-container">
       <div className="ft-btm">
         <div>© 2024 unitech. All Rights Reserved.</div>
-        <div>Designed by <a href="/" target="_blank" className="ft-btm-link">Aniket Chelawat 😎.</a> Assigned by <a href="./" target="_blank" className="ft-btm-link">Hire Quotient. 😀</a></div>
+        <div>Designed by <a href="/" target="_blank" className="ft-btm-link" style={{color:"lime"}}>Aniket Chelawat 😎.</a> Assigned by <a href="./" target="_blank" className="ft-btm-link" style={{color:"lime"}}>Hire Quotient. 😀</a></div>
       </div>
     </div>
   </div>
 </section>
 
-
-<section>
-{/* <div className="carousel w-1/2 ">
-  <div id="slide1" className="carousel-item relative w-full">
-    <img src={myImage} className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide4" className="btn btn-circle">❮</a> 
-      <a href="#slide2" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
-  <div id="slide2" className="carousel-item relative w-full">
-    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide1" className="btn btn-circle">❮</a> 
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div> 
   
-</div> */}
-
-</section>
 
 </div>
   );
