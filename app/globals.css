@@ -1462,12 +1462,16 @@ img {
   }
 
   .cta-title{
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .cta-top{
     padding-left:20px;
     display: block;
+  }
+
+  .cta-bottom{
+    display: none;
   }
 
   .cta-text{
@@ -1481,7 +1485,7 @@ img {
   }
 
   .cta-wrap{
-    height:30rem;
+    height:22rem;
   }
 
   .post-item{
